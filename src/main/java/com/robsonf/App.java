@@ -2,6 +2,7 @@ package com.robsonf;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        BFS bfs = new BFS();
+        bfs.discoverWeb("https://www.bbc.com");
     }
 }
